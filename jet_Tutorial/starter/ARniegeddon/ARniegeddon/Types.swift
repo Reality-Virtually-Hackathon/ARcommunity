@@ -41,6 +41,8 @@ enum Sounds {
                                                      waitForCompletion: false)
   static let lose =      SKAction.playSoundFileNamed("lose.wav",
                                                      waitForCompletion: false)
+  static let read =      SKAction.playSoundFileNamed("reading",
+                                                     waitForCompletion: false)
 }
 
 
