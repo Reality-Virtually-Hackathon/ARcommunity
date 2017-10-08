@@ -34,15 +34,11 @@
 import ARKit
 
 class GameViewController: UIViewController {
-  
-//  @IBOutlet var sceneView: ARSCNView!
+
   var sceneView: ARSKView!
   
   override func viewDidLoad() {
     super.viewDidLoad()
- 
-    // Set the view's delegate
-//    sceneView.delegate = self.view as! ARSKViewDelegate
     
     if let view = self.view as! ARSKView? {
       sceneView = view
